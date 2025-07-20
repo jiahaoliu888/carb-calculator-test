@@ -1,0 +1,6 @@
+tc=verifyCarbCalculatorWithValidInputMetricUnit,age=38,gender=female,cm=165,kg=55,activity=Very Active
+tc=verifyCarbCalculatorWithValidInputUSUnit,age=56,gender=female,feet=5,inch=3,pound=106,activity=Sedentary
+tc=verifyCarbCalculatorWithDiffFormulaAndBodyFat,age=19,gender=male,cm=180,kg=75,activity=Extra Active,formula=Katch-McArdle,bodyFat=30
+tc=verifyCarbCalculatorWithInvalidInput,age=90,gender=male,cm=150,kg=45,activity=Moderate,formula=Katch-McArdle,bodyFat=25
+tc=verifyCarbCalculatorConsistentResultsAcrossUnits,age=45,gender=female,cm=170.18,kg=56.699,feet=5,inch=7,pound=125,activity=Active
+tc=verifyCarbCalculatorUnitConversionAccuracy,inch=1,cm=2.54,CDegree=37,fDegree=98.6,sFoot=100,sMeter=9.2903,gallon=10,liter=37.8541,pound=1000,kg=453.592,tolerance=0.00001
